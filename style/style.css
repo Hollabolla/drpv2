@@ -1,0 +1,127 @@
+/* #region Body --------------------------------------- */
+
+body{
+    background-color: #484848;
+}
+
+/* #endregion */
+
+/* #region Grid wrapper --------------------------------------- */
+
+.wrapper {
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+/* infinite rows / 6 columns */
+}
+
+/* #endregion */
+
+/* #region rpinfo --------------------------------------- */
+.rpinfo{
+    grid-area: 1 / 2 / span 4/ span 2;
+    margin-top: 5%;
+}
+
+.rpinfo h2{
+    color: #8f69bd;
+}
+
+.rpinfo p{
+    color: beige;
+}
+
+.rpimg{
+    float: left;
+    max-width: 100%; 
+}
+/* #endregion */
+
+/* #region topnav --------------------------------------- */
+.topnav {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(36, 36, 36, .5);
+    width: 100%;
+    left: 0;
+}
+
+.topnav a {
+    display: block;
+    text-align: center;
+}
+/* #endregion */
+
+/* #region button --------------------------------------- */
+.klikmig{
+    background-color: #ff1515;
+    border: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: 20%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.klikmig a{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin: 4px 2px;
+}
+/* #endregion */
+
+/* #region howto --------------------------------------- */
+.howto{
+    grid-area: 2 / 2 / span 4 / span 2;
+    background-color: #484848
+}
+.howto h2{
+    color: #8f69bd;
+}
+.howto p{
+    color: beige;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+    border: none;
+}
+/* #endregion */
+
+.accordion {
+    grid-area: 3 / 2 / span 6 / span 2;
+    margin: 50px;   
+}
+
+.accordion dt, dd {
+    padding: 10px;
+    border: 1px solid black;
+    border-bottom: 0; 
+    background: linear-gradient(202.35deg, #4A4545 -13.03%, rgba(255, 255, 255, 0) 97.96%), #ECEBEB;
+}
+.accordion dt, p > b {
+    line-height: 30px;
+}
+
+.accordion a {
+    text-decoration: none;
+}
+.accordion p{
+    border: 1px;
+    border-color: beige;
+}
