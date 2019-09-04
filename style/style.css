@@ -102,6 +102,7 @@ body{
 }
 /* #endregion */
 
+/* #region regler --------------------------------------- */
 .accordion {
     grid-area: 3 / 2 / span 6 / span 2;
     margin: 50px;   
@@ -123,3 +124,4 @@ body{
 .accordion p{
     text-shadow: 0 0 5px #fff;
 }
+/* #endregion */
