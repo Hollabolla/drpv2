@@ -1,7 +1,7 @@
 /* #region Body --------------------------------------- */
 
 body{
-    background-color: #484848;
+    background: linear-gradient(202.35deg, #484848 -13.03%, rgba(255, 255, 255, 0) 97.96%), #ECEBEB;
 }
 
 /* #endregion */
@@ -27,7 +27,7 @@ body{
 }
 
 .rpinfo h2{
-    color: #8f69bd;
+    color: black;
 }
 
 .rpinfo p{
@@ -77,10 +77,9 @@ body{
 /* #region howto --------------------------------------- */
 .howto{
     grid-area: 2 / 2 / span 4 / span 2;
-    background-color: #484848
 }
 .howto h2{
-    color: #8f69bd;
+    color: black;
 }
 .howto p{
     color: beige;
@@ -112,7 +111,7 @@ body{
     padding: 10px;
     border: 1px solid black;
     border-bottom: 0; 
-    background: linear-gradient(202.35deg, #4A4545 -13.03%, rgba(255, 255, 255, 0) 97.96%), #ECEBEB;
+    background: linear-gradient(202.35deg, #c4d6db -13.03%, rgba(255, 255, 255, 0) 97.96%), #ECEBEB;
 }
 .accordion dt, p > b {
     line-height: 30px;
@@ -122,6 +121,5 @@ body{
     text-decoration: none;
 }
 .accordion p{
-    border: 1px;
-    border-color: beige;
+    text-shadow: 0 0 5px #fff;
 }
