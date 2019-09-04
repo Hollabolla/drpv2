@@ -59,6 +59,7 @@ body{
 }
 .topnav-right{
     float: right;
+    margin-top: 1%;
 }
 
 /* #endregion */
