@@ -51,9 +51,16 @@ body{
 }
 
 .topnav a {
-    display: block;
+    padding: 14px 16px;
     text-align: center;
+    text-decoration: none;
+    color: beige;
+    font-size: 18px;
 }
+.topnav-right{
+    float: right;
+}
+
 /* #endregion */
 
 /* #region button --------------------------------------- */
