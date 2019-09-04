@@ -113,7 +113,7 @@ body{
 
 /* #region regler --------------------------------------- */
 .accordion {
-    grid-area: 9 / 2 / span 6 / span 2;
+    grid-area: 9 / 2 / span 10 / span 2;
     margin: 50px;   
 }
 
