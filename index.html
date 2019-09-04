@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DanishRP v2</title>
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body >
@@ -40,7 +41,7 @@
             <h2>Guide til hvordan man kommer på Serveren!</h2>
             <p>For at kunne spille på vores server kræver det at du har købt spillet GTA V og har hentet programmet FiveM, hvis du har brug for hjælp til at komme på serveren kan du se denne video guide her.</p>
             <article class="iframe-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/juF7SMVhq-I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/juF7SMVhq-I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </article>
         </section>
             <dl class="accordion" id="regler">
@@ -129,19 +130,19 @@
             </dl>
 
     </main>
-    <script src="http://code.jquery.com/jquery-3.4.1.min.js">
-        
-        (function($) {
-            
-            var allPanels = $('.accordion > dd').hide();
-              
-            $('.accordion > dt > a').click(function() {
-              allPanels.slideUp();
-              $(this).parent().next().slideDown();
-              return false;
-            });
-          
-          })(jQuery);
-    </script>
 </body>
+<script>
+        
+    (function($) {
+        
+        var allPanels = $('.accordion > dd').hide();
+          
+        $('.accordion > dt > a').click(function() {
+          allPanels.slideUp();
+          $(this).parent().next().slideDown();
+          return false;
+        });
+      
+      })(jQuery);
+</script>
 </html>

@@ -84,7 +84,7 @@ body{
 
 /* #region howto --------------------------------------- */
 .howto{
-    grid-area: 2 / 2 / span 4 / span 2;
+    grid-area: 5 / 2 / span 4 / span 2;
 }
 .howto h2{
     color: black;
@@ -112,7 +112,7 @@ body{
 
 /* #region regler --------------------------------------- */
 .accordion {
-    grid-area: 3 / 2 / span 6 / span 2;
+    grid-area: 9 / 2 / span 6 / span 2;
     margin: 50px;   
 }
 
